@@ -7,12 +7,16 @@
 # lo resuelvan directamente.
 #
 
+
+cadena = input('Por favor Ingresa una cadena de texto : ')
+
+
 def recibir_cadena(cadena):
 
   texto_en_cadena = cadena.upper()
   print(texto_en_cadena)
 
 
-recibir_cadena('hola')
+recibir_cadena(cadena)
 
 

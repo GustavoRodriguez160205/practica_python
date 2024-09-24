@@ -4,13 +4,13 @@
  #
 
 
-numero = int(input('Por favor Ingresa un numero'))
+numero = int(input('Por favor Ingresa un numero :'))
 
 if numero <= 1:
   print('no es primo')
  
 else:
-    # Asumo que el numeor es primo
+    # Asumo que el numero es primo
     es_primo = False
        
        # Calculo la raiz cuadrada
